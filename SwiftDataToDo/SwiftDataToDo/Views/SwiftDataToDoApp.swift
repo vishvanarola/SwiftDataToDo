@@ -26,7 +26,7 @@ struct SwiftDataToDoApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ToDoListView()
+            SplashView()
         }
         .modelContainer(container)
     }
